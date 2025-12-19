@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carte du voyage - Huet suisse</title>
+  <style>
+    body { margin: 0; padding: 0; font-family: Arial, sans-serif; }
+    #map { height: 100vh; width: 100%; }
+    .info-window { max-width: 250px; font-family: Arial, sans-serif; }
+    .info-window img { width: 100%; height: auto; border-radius: 8px; margin-bottom: 10px; }
+    .info-window h3 { margin: 0 0 5px 0; font-size: 16px; color: #333; }
+    .info-window p { margin: 5px 0; font-size: 14px; color: #666; }
+    .info-window a { color: #1a73e8; text-decoration: none; }
+    .info-window a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  
+  <script>
+    function initMap() {
+      const center = { lat: 46.87435385714286, lng: 8.069556342857144 };
+      const map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 10,
+        center: center
+      });
+      
+      const markers = [{"lat":47.3768866,"lng":8.541694,"name":"Zurich","jour":1,"titre":"Arrivée à Zurich, Douce Immersion","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=47.3768866,8.541694&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=47.3768866,8.541694","aiImageUrl":"jour1.jpg"},{"lat":47.05016819999999,"lng":8.3093072,"name":"Lucerne","jour":3,"titre":"Lucerne, Perle des Alpes","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=47.05016819999999,8.3093072&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=47.05016819999999,8.3093072","aiImageUrl":"jour3.jpg"},{"lat":46.9794705,"lng":8.2548011,"name":"Lucerne / Mont Pilate","jour":4,"titre":"L'Ascension du Mont Pilate","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=46.9794705,8.2548011&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=46.9794705,8.2548011","aiImageUrl":"jour4.jpg"},{"lat":46.5935058,"lng":7.9090981,"name":"Lauterbrunnen","jour":5,"titre":"Lauterbrunnen, Vallée des 72 Cascades","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=46.5935058,7.9090981&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=46.5935058,7.9090981","aiImageUrl":"jour5.jpg"},{"lat":46.548308,"lng":7.983150999999999,"name":"Jungfraujoch","jour":6,"titre":"Le Sommet de l'Europe, Jungfraujoch","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=46.548308,7.983150999999999&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=46.548308,7.983150999999999","aiImageUrl":"jour6.jpg"},{"lat":46.624164,"lng":8.0413962,"name":"Grindelwald","jour":7,"titre":"Charme Alpin à Grindelwald","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=46.624164,8.0413962&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=46.624164,8.0413962","aiImageUrl":"jour7.jpg"},{"lat":46.9479739,"lng":7.4474468,"name":"Berne","jour":8,"titre":"Berne, Capitale Historique","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=46.9479739,7.4474468&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=46.9479739,7.4474468","aiImageUrl":"jour8.jpg"}];
+      
+      markers.forEach((markerData) => {
+        const marker = new google.maps.Marker({
+          position: { lat: markerData.lat, lng: markerData.lng },
+          map: map,
+          title: markerData.name,
+          label: String(markerData.jour)
+        });
+        
+        const contentString = `
+          <div class="info-window">
+            <img src="${markerData.streetViewUrl}" alt="Street View de ${markerData.name}" />
+            <h3>Jour ${markerData.jour}</h3>
+            <p><strong>${markerData.name}</strong></p>
+            <p><a href="${markerData.streetViewLinkUrl}" target="_blank" rel="noopener noreferrer"><strong>${markerData.titre}</strong></a></p>
+          </div>
+        `;
+        
+        const infoWindow = new google.maps.InfoWindow({
+          content: contentString
+        });
+        
+        marker.addListener('click', () => {
+          infoWindow.open(map, marker);
+        });
+      });
+    }
+  </script>
+  
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI&callback=initMap">
+  </script>
+</body>
+</html>
