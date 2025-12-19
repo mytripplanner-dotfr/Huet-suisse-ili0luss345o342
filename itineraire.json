@@ -1,0 +1,306 @@
+{
+  "pays": "Suisse",
+  "drapeau": "🇨🇭",
+  "symbole": "🏔️",
+  "titre": "Évasion Alpine: Lacs, Montagnes et Charme Suisse",
+  "budget_total": "4000€",
+  "duree": "9 jours",
+  "temps_vol": "15h avec escale depuis Mendes, Brésil",
+  "jours": [
+    {
+      "jour": 1,
+      "symbole": "🛬",
+      "titre": "Arrivée à Zurich, Douce Immersion",
+      "legende": "Après un long voyage depuis le Brésil, votre arrivée à Zurich marque le début d'une aventure alpine. Prenez le temps de vous installer et de vous imprégner de l'atmosphère sereine de la ville. Une balade tranquille dans la vieille ville sera parfaite pour débuter ce séjour en douceur, sans précipitation.",
+      "lieu": "Zurich",
+      "activites": [
+        "🛬 <strong>Arrivée à Zurich</strong>: Atterrissage à l'aéroport de Zurich (ZRH) et transfert vers votre hôtel. Prenez le temps de vous rafraîchir et de vous détendre après le vol.",
+        "🚶‍♂️ <strong>Balade dans la Vieille Ville (Altstadt)</strong>: Flânez dans les ruelles pavées de l'Altstadt, admirez les bâtiments médiévaux et les églises historiques comme le Grossmünster et le Fraumünster. C'est une excellente façon de s'acclimater à l'ambiance suisse."
+      ],
+      "illustration": "jour1.jpg",
+      "encarts": [
+        {
+          "symbole": "ℹ️",
+          "titre": "À savoir",
+          "texte": "Le système de transport public suisse est d'une efficacité redoutable. De l'aéroport, un train vous mènera au centre-ville de Zurich en une dizaine de minutes."
+        },
+        {
+          "symbole": "💡",
+          "titre": "Astuce",
+          "texte": "Pour votre première soirée, optez pour un dîner léger dans un restaurant traditionnel de l'Altstadt pour goûter aux saveurs locales."
+        }
+      ]
+    },
+    {
+      "jour": 2,
+      "symbole": "🌆",
+      "titre": "Zurich, Entre Culture et Sérénité Lacustre",
+      "legende": "Aujourd'hui, plongez au cœur de Zurich, une ville qui allie dynamisme urbain et paysages naturels apaisants. Entre shopping de luxe, croisière relaxante sur le lac et exploration des quartiers historiques, vous découvrirez les multiples facettes de cette métropole suisse. Laissez-vous charmer par son élégance et sa qualité de vie.",
+      "lieu": "Zurich",
+      "activites": [
+        "🛍️ <strong>Découverte de la Bahnhofstrasse</strong>: Promenez-vous sur l'une des rues commerçantes les plus exclusives du monde. Admirez les vitrines des boutiques de luxe et l'architecture élégante des bâtiments.",
+        "🚢 <strong>Croisière sur le Lac de Zurich</strong>: Embarquez pour une croisière relaxante sur le lac de Zurich. Profitez des vues imprenables sur la ville, les Alpes en arrière-plan et les charmants villages riverains.",
+        "🍽️ <strong>Dîner dans le quartier de Niederdorf</strong>: Explorez le quartier animé de Niederdorf, connu pour ses restaurants, ses bars et son ambiance nocturne. C'est l'endroit idéal pour savourer un repas typiquement suisse."
+      ],
+      "illustration": "jour2.jpg",
+      "encarts": [
+        {
+          "symbole": "💰",
+          "titre": "Budget",
+          "texte": "La Bahnhofstrasse est réputée pour ses boutiques de luxe. Prévoyez un budget conséquent si vous souhaitez y faire des achats."
+        },
+        {
+          "symbole": "☀️",
+          "titre": "Météo",
+          "texte": "En fonction de la saison, la croisière sur le lac peut être plus agréable avec un pull ou une veste, même par beau temps."
+        }
+      ]
+    },
+    {
+      "jour": 3,
+      "symbole": "🚆",
+      "titre": "Lucerne, Perle des Alpes",
+      "legende": "Laissez Zurich derrière vous pour une immersion dans la Suisse centrale, direction Lucerne. Cette ville pittoresque, nichée au bord d'un lac émeraude et entourée de montagnes majestueuses, est un véritable joyau. Son célèbre pont en bois et sa vieille ville médiévale vous transporteront dans un autre temps, offrant des panoramas dignes de cartes postales.",
+      "lieu": "Lucerne",
+      "activites": [
+        "🚂 <strong>Trajet en train vers Lucerne</strong>: Profitez d'un trajet panoramique d'environ 45 minutes en train de Zurich à Lucerne. Les paysages qui défilent sont déjà une invitation au voyage.",
+        "🌉 <strong>Pont de la Chapelle et Tour d'Eau</strong>: Traversez le célèbre Pont de la Chapelle (Kapellbrücke), le plus ancien pont en bois couvert d'Europe, et admirez la Tour d'Eau octogonale. Chaque panneau peint raconte une histoire.",
+        "🚶‍♀️ <strong>Exploration du centre historique</strong>: Perdez-vous dans les ruelles colorées de la vieille ville de Lucerne. Découvrez les places animées, les fontaines historiques et les façades peintes des maisons."
+      ],
+      "illustration": "jour3.jpg",
+      "encarts": [
+        {
+          "symbole": "🗺️",
+          "titre": "Orientation",
+          "texte": "La gare de Lucerne est idéalement située, à quelques pas du lac et du centre historique, facilitant les déplacements à pied."
+        },
+        {
+          "symbole": "📸",
+          "titre": "Photo",
+          "texte": "Le Pont de la Chapelle offre des opportunités de photos magnifiques, surtout au lever ou au coucher du soleil."
+        }
+      ]
+    },
+    {
+      "jour": 4,
+      "symbole": "⛰️",
+      "titre": "L'Ascension du Mont Pilate",
+      "legende": "Préparez-vous à une journée d'aventure et de panoramas à couper le souffle avec l'ascension du Mont Pilate, la \"montagne du dragon\". Ce circuit en or vous fera découvrir des paysages variés, entre lac, forêt et sommets enneigés. Une expérience inoubliable qui vous offrira des vues spectaculaires sur les Alpes suisses et le lac des Quatre-Cantons.",
+      "lieu": "Lucerne / Mont Pilate",
+      "activites": [
+        "🚠 <strong>Excursion au Mont Pilate (Circuit en Or)</strong>: Prenez un bateau sur le lac des Quatre-Cantons jusqu'à Alpnachstad, puis le train à crémaillère le plus raide du monde jusqu'au sommet du Pilate. Redescendez en téléphérique et télécabine vers Kriens, puis en bus jusqu'à Lucerne.",
+        "🚶‍♂️ <strong>Randonnée légère au sommet</strong>: Au sommet du Mont Pilate, profitez des sentiers de randonnée faciles pour explorer les différents points de vue et admirer le panorama à 360 degrés sur les Alpes et les lacs."
+      ],
+      "illustration": "jour4.jpg",
+      "encarts": [
+        {
+          "symbole": "🥾",
+          "titre": "Équipement",
+          "texte": "Même en été, les températures peuvent être fraîches au sommet du Pilate. Prévoyez des couches de vêtements et de bonnes chaussures."
+        },
+        {
+          "symbole": "🐉",
+          "titre": "Légende",
+          "texte": "Le Mont Pilate est entouré de nombreuses légendes de dragons. Gardez l'œil ouvert, qui sait ce que vous pourriez apercevoir!"
+        }
+      ]
+    },
+    {
+      "jour": 5,
+      "symbole": "🏞️",
+      "titre": "Lauterbrunnen, Vallée des 72 Cascades",
+      "legende": "Aujourd'hui, direction la région de l'Oberland bernois, un écrin de nature sauvage et majestueuse. La vallée de Lauterbrunnen, avec ses falaises vertigineuses et ses 72 cascades, est un spectacle naturel d'une beauté rare. Vous serez émerveillé par la puissance des chutes et la sérénité des paysages alpins, une véritable immersion au cœur des Alpes suisses.",
+      "lieu": "Lauterbrunnen",
+      "activites": [
+        "🚆 <strong>Trajet en train vers Lauterbrunnen</strong>: Prenez un train de Lucerne à Lauterbrunnen (environ 2h30 avec un changement à Interlaken Ost). Le trajet offre des vues magnifiques sur les paysages suisses.",
+        "💦 <strong>Visite des Chutes de Trümmelbach</strong>: Explorez les impressionnantes chutes de Trümmelbach, les seules chutes d'eau glaciaires souterraines d'Europe accessibles au public. Dix cascades s'engouffrent dans la montagne.",
+        "🚶‍♀️ <strong>Balade dans la vallée de Lauterbrunnen</strong>: Promenez-vous le long de la vallée, admirez les falaises abruptes et les nombreuses cascades, dont la célèbre Staubbachfall qui tombe directement dans le village."
+      ],
+      "illustration": "jour5.jpg",
+      "encarts": [
+        {
+          "symbole": "🚊",
+          "titre": "Transport",
+          "texte": "Le Swiss Travel Pass est idéal pour cette journée, couvrant les trajets en train et l'accès à de nombreuses attractions."
+        },
+        {
+          "symbole": "☔",
+          "titre": "Conseil",
+          "texte": "Prévoyez un imperméable ou des vêtements résistants à l'eau pour la visite des chutes de Trümmelbach, car vous serez très proche de l'eau."
+        }
+      ]
+    },
+    {
+      "jour": 6,
+      "symbole": "❄️",
+      "titre": "Le Sommet de l'Europe, Jungfraujoch",
+      "legende": "Préparez-vous pour le point culminant de votre voyage, une excursion au Jungfraujoch, le \"Toit de l'Europe\". Ce voyage en train à travers les montagnes vous mènera à la plus haute gare ferroviaire d'Europe, au cœur d'un monde de glace et de neige éternelle. Une expérience grandiose et inoubliable, offrant des vues panoramiques sur le glacier d'Aletsch et les sommets alpins.",
+      "lieu": "Jungfraujoch",
+      "activites": [
+        "🏔️ <strong>Excursion au Jungfraujoch</strong>: Prenez le train de Lauterbrunnen via Wengen et Kleine Scheidegg jusqu'au Jungfraujoch. Le trajet est une merveille d'ingénierie et offre des vues spectaculaires.",
+        "🧊 <strong>Exploration du Palais de Glace et du Plateau</strong>: Au sommet, visitez le Palais de Glace sculpté dans le glacier, promenez-vous sur le Plateau pour des vues dégagées et admirez le glacier d'Aletsch, le plus long des Alpes."
+      ],
+      "illustration": "jour6.jpg",
+      "encarts": [
+        {
+          "symbole": "🌡️",
+          "titre": "Température",
+          "texte": "Il fait froid au Jungfraujoch, même en été. Habillez-vous très chaudement avec plusieurs couches, un bonnet, des gants et des lunettes de soleil."
+        },
+        {
+          "symbole": "🌬️",
+          "titre": "Altitude",
+          "texte": "À 3454 mètres d'altitude, certaines personnes peuvent ressentir le mal des montagnes. Marchez lentement et hydratez-vous."
+        }
+      ]
+    },
+    {
+      "jour": 7,
+      "symbole": "🌲",
+      "titre": "Charme Alpin à Grindelwald",
+      "legende": "Après l'altitude du Jungfraujoch, découvrez le charme authentique de Grindelwald, un village alpin pittoresque niché au pied de l'Eiger. Que vous optiez pour une promenade paisible ou une activité plus aventureuse, cette journée sera placée sous le signe de la beauté naturelle et de l'air pur des montagnes. Profitez de l'ambiance décontractée et des vues imprenables.",
+      "lieu": "Grindelwald",
+      "activites": [
+        "🏘️ <strong>Visite de Grindelwald</strong>: Prenez le train de Lauterbrunnen à Grindelwald (environ 40 minutes). Explorez le village, ses chalets traditionnels et ses boutiques d'artisanat local.",
+        "🚶‍♀️ <strong>Activité au First Cliff Walk ou randonnée facile</strong>: Prenez le téléphérique jusqu'à Grindelwald First. Osez le First Cliff Walk pour des sensations fortes ou optez pour une randonnée facile avec des vues panoramiques sur l'Eiger, le Mönch et la Jungfrau."
+      ],
+      "illustration": "jour7.jpg",
+      "encarts": [
+        {
+          "symbole": "🍽️",
+          "titre": "Gastronomie",
+          "texte": "Profitez d'un déjeuner avec vue dans l'un des restaurants de montagne à Grindelwald First, offrant des spécialités suisses."
+        },
+        {
+          "symbole": "🚡",
+          "titre": "Activités",
+          "texte": "Grindelwald First propose aussi des activités comme le First Flyer ou le First Glider pour les amateurs de sensations fortes."
+        }
+      ]
+    },
+    {
+      "jour": 8,
+      "symbole": "🏛️",
+      "titre": "Berne, Capitale Historique",
+      "legende": "Pour votre avant-dernière journée, quittez les sommets pour la capitale suisse, Berne. Classée au patrimoine mondial de l'UNESCO, cette ville médiévale séduit par son architecture unique, ses arcades couvertes et sa célèbre Tour de l'Horloge. Une journée riche en histoire et en découvertes, avant de vous rapprocher de votre point de départ.",
+      "lieu": "Berne",
+      "activites": [
+        "🚆 <strong>Trajet en train vers Berne</strong>: Prenez le train de Lauterbrunnen à Berne (environ 1h30). Installez-vous et admirez les paysages qui changent au fur et à mesure que vous quittez les montagnes.",
+        "🕰️ <strong>Découverte de la Vieille Ville et de la Tour de l'Horloge (Zytglogge)</strong>: Explorez la vieille ville de Berne, ses arcades médiévales et ses fontaines. Ne manquez pas le spectacle de la Tour de l'Horloge qui s'anime toutes les heures.",
+        "🐻 <strong>Visite de la Fosse aux Ours (BärenPark)</strong>: Rendez visite aux ours, symboles de la ville de Berne, dans leur parc spacieux le long de l'Aare. C'est une attraction charmante et gratuite."
+      ],
+      "illustration": "jour8.jpg",
+      "encarts": [
+        {
+          "symbole": "🚶‍♀️",
+          "titre": "Mobilité",
+          "texte": "La vieille ville de Berne est très agréable à explorer à pied. Les transports en commun sont également très efficaces si besoin."
+        },
+        {
+          "symbole": "🛍️",
+          "titre": "Shopping",
+          "texte": "Les arcades de Berne abritent de nombreuses boutiques uniques, parfaites pour trouver des souvenirs authentiques."
+        }
+      ]
+    },
+    {
+      "jour": 9,
+      "symbole": "🛫",
+      "titre": "Départ de Zurich, Souvenirs Alpins",
+      "legende": "C'est le dernier jour de votre périple suisse. Après un petit-déjeuner typiquement suisse, il sera temps de rejoindre l'aéroport de Zurich pour votre vol retour vers Mendes, Brésil. Emportez avec vous des souvenirs impérissables des paysages grandioses, des villes charmantes et de l'hospitalité suisse. Un voyage riche en émotions et en découvertes s'achève.",
+      "lieu": "Zurich",
+      "activites": [
+        "🚆 <strong>Transfert à l'aéroport de Zurich</strong>: Prenez un train direct de Berne à l'aéroport de Zurich (environ 1h15). Prévoyez suffisamment de temps pour les formalités d'enregistrement et de sécurité.",
+        "✈️ <strong>Vol retour vers Mendes, Brésil</strong>: Embarquez pour votre vol retour, la tête pleine de souvenirs des Alpes suisses."
+      ],
+      "illustration": "jour9.jpg",
+      "encarts": [
+        {
+          "symbole": "⏰",
+          "titre": "Timing",
+          "texte": "Arrivez à l'aéroport au moins 2-3 heures avant votre vol international pour éviter tout stress inutile."
+        },
+        {
+          "symbole": "🎁",
+          "titre": "Derniers achats",
+          "texte": "L'aéroport de Zurich propose de nombreuses boutiques pour des achats de dernière minute, comme du chocolat suisse ou des montres."
+        }
+      ]
+    }
+  ],
+  "detail_budget": [
+    {
+      "titre": "Budget vol:",
+      "legende": "1200€/pers (Vol aller-retour Mendes, Brésil - Zurich en classe économique avec escale)",
+      "symbole": "🛬"
+    },
+    {
+      "titre": "Budget transports:",
+      "legende": "450€/pers (Swiss Travel Pass 8 jours, couvrant trains, bus, bateaux et réductions sur les remontées mécaniques)",
+      "symbole": "🚆"
+    },
+    {
+      "titre": "Budget repas:",
+      "legende": "630€/pers (9 jours à 70€/jour en moyenne, incluant petits-déjeuners, déjeuners et dîners)",
+      "symbole": "🥗"
+    },
+    {
+      "titre": "Budget logement:",
+      "legende": "1360€/pers (8 nuits à 170€/nuit en hôtel 3 étoiles, base chambre double)",
+      "symbole": "🛏️"
+    },
+    {
+      "titre": "Budget activités:",
+      "legende": "360€/pers (9 jours à 40€/jour en moyenne, incluant excursions Pilate, Jungfraujoch, Trümmelbach, First)",
+      "symbole": "🎭"
+    }
+  ],
+  "periodes_ideales": [
+    {
+      "titre": "Les périodes idéales pour ce séjour sont les mois de septembre et octobre.",
+      "symbole": "🍁"
+    },
+    {
+      "titre": "Le printemps (mai-juin) est également une excellente option avec des paysages verdoyants et des fleurs.",
+      "symbole": "🌸"
+    }
+  ],
+  "infos_pratiques": [
+    {
+      "titre": "La Suisse est un pays multilingue avec quatre langues nationales: l'allemand, le français, l'italien et le romanche. L'anglais est largement parlé dans les zones touristiques.",
+      "symbole": "🗣️"
+    },
+    {
+      "titre": "La population suisse est connue pour sa ponctualité, son efficacité et son respect des règles. Le pays est très sûr.",
+      "symbole": "🇨🇭"
+    },
+    {
+      "titre": "La Suisse n'est pas membre de l'Union Européenne. Sa monnaie est le Franc Suisse (CHF). Les cartes de crédit sont acceptées partout, mais il est bon d'avoir un peu de liquide.",
+      "symbole": "💰"
+    },
+    {
+      "titre": "Insolite: La Suisse compte plus de sommets de plus de 4000 mètres que tout autre pays d'Europe. C'est aussi le pays avec la plus forte densité de châteaux au monde.",
+      "symbole": "🏰"
+    }
+  ],
+  "liens_utiles": [
+    {
+      "legende": "Informations officielles sur le tourisme en Suisse",
+      "titre": "Suisse Tourisme",
+      "url": "https://www.myswitzerland.com/fr/",
+      "symbole": "📘"
+    },
+    {
+      "legende": "Horaires et billets de train en Suisse",
+      "titre": "CFF (Chemins de fer fédéraux suisses)",
+      "url": "https://www.sbb.ch/fr/home.html",
+      "symbole": "🚆"
+    },
+    {
+      "legende": "Prévisions météo détaillées pour la Suisse",
+      "titre": "Météo Suisse",
+      "url": "https://www.meteosuisse.admin.ch/home.html?lang=fr",
+      "symbole": "🌤️"
+    }
+  ]
+}
